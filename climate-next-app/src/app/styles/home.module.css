@@ -1,0 +1,22 @@
+
+/* CSS Styling for dictionary cards on Homepage. */
+
+.cardContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2%;
+}
+
+.cardContainer > * {
+  width: 40%;
+}
+
+.cardContainer > *:first-child {
+  margin-bottom: 10%;
+
+}
+
+.cardContainer > *:last-child {
+  margin-top: 10%;
+}
+
